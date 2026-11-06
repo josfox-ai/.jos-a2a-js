@@ -1,3 +1,29 @@
+<!-- Put this block at the very top of the upstream README.md. Keep the upstream README below it unchanged so merges from a2aproject/a2a-js stay clean. -->
+
+> ### .jos-a2a-js — send and receive `.jos` contracts from JavaScript agents
+>
+> A fork of the official [A2A JavaScript SDK](https://github.com/a2aproject/a2a-js), kept as the starting point for first-class `.jos` support in JavaScript. The upstream README below is unchanged.
+>
+> **The goal.** A JavaScript agent should be able to attach a `.jos` document to an A2A message and have the receiving agent validate it before doing anything: right content type (`application/vnd.jos+json`), right schema, guardrails honored. Today you can already do the validation half with the reference kernel:
+>
+> ```bash
+> npm install @josfox/jos-core   # zero dependencies
+> ```
+>
+> **Status, stated plainly.** The fork tracks upstream; the `.jos` helpers are not written yet. If you need them, say so in the [.jos specification issues](https://github.com/josfox-jos/jos-spec/issues). Demand sets the order of work.
+>
+> **Related:** [the A2A protocol fork, A2A.jos](https://github.com/josfox-ai/A2A.jos) · [.jos community start page](https://github.com/josfox-jos/jos) · [the 2.0.0 specification and test kit](https://github.com/josfox-jos/jos-spec) · [jos.mx, the standard's landing page](https://github.com/josfox-jos/jos.mx) · [format draft 0.0.7, for history](https://github.com/josfox-ai/jos-format-spec)
+>
+> **Built by JOSFOX:** [deep-link helper that opens the JOSFOX AI app](https://github.com/josfox-ai/josfoxai-deep-link) · [its reserved twin name under josfox-jos](https://github.com/josfox-jos/josfoxai-deep-link)
+
+---
+
+## Public platform documentation — expanded ecosystem
+
+For readers of `josfox-ai/.jos-a2a-js`, distribution status per platform is documented in one public hub; its existence does not imply a downloadable artifact or verified host compatibility.
+
+- For readers of `josfox-ai/.jos-a2a-js`, [jos-omni](https://github.com/josfox-ai/jos-omni) provides distribution documentation hub.
+
 # A2A JavaScript SDK
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
